@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://brdnwwcphd7cj"]
+
+[ext_resource type="Script" uid="uid://dpgrwstsjdfdv" path="res://snake.gd" id="1_16tbv"]
+
+[node name="Snake" type="Node2D"]
+script = ExtResource("1_16tbv")
+
+[node name="SnakeParts" type="Node" parent="."]
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.2
+autostart = true
